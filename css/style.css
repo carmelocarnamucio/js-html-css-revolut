@@ -74,7 +74,7 @@ nav.right .menu .btn-mag a {
 
 .menu li a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: capitalize;
   color:#a4aab0;
 }
@@ -84,7 +84,7 @@ nav.right .menu .btn-mag a {
 .dropdown li a {
   display: block;
   text-align: left;
-  padding: 20px;
+  padding: 18px;
 }
 
 .dropdown li {
