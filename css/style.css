@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* Header */
+
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+/* Nav left */
+
+nav.left{
+  float: left;
+  width: 30%;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+}
+
+.logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+/* Nav right */
+
+nav.right{
+  float: left;
+  width: 70%;
+  text-align: right;
+
+}
+nav.right .menu {
+  border-radius: 100px;
+  padding: 12px 14px;
+  margin-left: 20px;
+}
+
+nav.right .menu {
+  color: white;
+}
+
+.menu li{
+  list-style-type: none;
+  display: inline;
+  padding-left: 50px;
+  position:relative;
+  padding-bottom: 10px;
+}
+
+
+/* dropdown */
+
+.dropdown li a {
+  display: block;
+  text-align: left;
+  padding: 20px;
+}
+
+.dropdown li {
+  line-height: 1;
+  padding-left: 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 26px;;
+  left: 17px;
+  white-space: nowrap;
+  background-color: white;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.off {
+  display: none;
+}
+
+/* Button languages */
+
+.btn > .down {
+  font-size: 10px;
+  color:#a4aab0;
+}
