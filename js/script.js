@@ -1,7 +1,11 @@
 $(document).ready(function () {
 
     $('.with-dropdown').click( function () {
-      $(this).children('.dropdown').toggleClass('active');
+      $('.dropdown').removeClass('active');
+      $(this).children('with-dropdown').addClass('active');
     });
 
+    $('.with-dropdown').click( function () {
+      $(this).children('.dropdown').toggleClass('active');
+    });
 });
